@@ -1,0 +1,10 @@
+
+
+INSERT INTO guitar (name, firm, strings, tuning)
+VALUES ('test1','test2',6,'#a');
+
+
+INSERT INTO guitar (name, firm, strings, tuning)
+VALUES ('slayer','adidas',12,'#d');
+
+

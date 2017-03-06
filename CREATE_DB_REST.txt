@@ -1,0 +1,10 @@
+CREATE SEQUENCE guitar_id ;
+
+CREATE TABLE guitar( id numeric(10,0) NOT NULL DEFAULT nextval('guitar_id'),
+  name text,
+  firm text,
+  strings numeric(4,0),
+  tuning text,
+  CONSTRAINT guitar_pk PRIMARY KEY (id)
+) ;
+
